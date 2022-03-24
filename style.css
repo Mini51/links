@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@800&display=swap');
+
+body {
+background: url('https://wallpaperaccess.com/full/6043682.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+color: #ffffff;
+font-family: 'Roboto Mono', monospace;
+font-size: 15px;
+letter-spacing: 2px;
+}
+img {
+border-radius: 50%;
+}
+.profile-picture {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+height: auto;
+max-width: 150px;
+border: 2px solid white;
+transition: all .2s ease-in-out;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 8px #fff;
+transition: all .2s ease-in-out;
+}
+
+.profile-picture:hover{
+ transform: scale(1.1);
+}
+
+.profile-name {
+text-align: center;
+padding: 30px;
+}
+.links {
+text-align: center;
+margin-top: 20px;
+padding: 20px;
+border: 1px solid white;
+border-width: 2px;
+width: 290px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 40px;
+}
+a {
+text-decoration: none;
+color: white;
+transition: color 1s;
+}
+.bottom-text {
+text-align: center;
+margin-top: 40px;
+font-size: 20px;
+font-weight: bold;
+}
+a:hover, a:focus {
+color: #000;
+background: #fff;
+}
+*:focus {
+    outline: 0 !important;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+}
+
+@keyframe grow {
+        0% {
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+        }
+        100% {
+            transform: scale(2.0);
+            -webkit-transform: scale(2.0);
+        }
+    }
